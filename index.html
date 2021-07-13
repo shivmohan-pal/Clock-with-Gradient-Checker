@@ -1,0 +1,55 @@
+<!doctype html>
+
+<head>
+    <title>Clock with Gradient Checker</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=5.0, minimum-scale=0.86">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="main">
+        <ul class="">
+            <li>
+                <div class="walls">
+                    <div class="wall">
+                        <h1>The Clock</h1>
+                        <div class="clock">
+                            <div class="stick" id="sec"></div>
+                            <div class="stick" id="min"></div>
+                            <div class="stick" id="hr"></div>
+                            <div class="center-pin"></div>
+                        </div>
+                        <h3 class="D-clock">Time</h3>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="walls">
+                    <div class="wall">
+                        <h1>Gradient Checker</h1>
+                        <div class="gradient">
+                            <h2>Background Color</h2>
+                            <div class="option">
+                                <h5>Red</h5>
+                                <input class="red" type="number" min="0" max="255" step="1" name="R" value="255">
+                                <h5>Green</h5>
+                                <input class="green" type="number" min="0" max="255" step="1" name="G" value="255">
+                                <h5>Blue</h5>
+                                <input class="blue" type="number" min="0" max="255" step="1" name="B" value="255">
+                                <h5>Opacity</h5>
+                                <input class="opacity" type="number" min="0" max="1" step="0.01" name="A" value="1">
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+            </li>
+        </ul>
+    </div>
+</body>
+
+<footer>
+    <script src="index.js" charset="utf-8"></script>
+</footer>
+
+</html>
